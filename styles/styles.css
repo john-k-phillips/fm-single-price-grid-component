@@ -115,4 +115,13 @@ h2 {
   font-size: 1.3em;
   margin-bottom: 1em;
 }
+
+@media screen and (min-width: 1440px) {
+  body {
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
