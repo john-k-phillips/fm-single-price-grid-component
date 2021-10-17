@@ -1,7 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;400;700&display=swap");
 .container {
   width: 85%;
   margin: 3em auto;
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .community, .monthly, .why {
@@ -16,8 +18,6 @@
 
 .community h2 {
   color: #2ab2af;
-  font-size: 1.3em;
-  margin-bottom: 1em;
 }
 
 .community p {
@@ -30,6 +30,55 @@
 .community .accent-green {
   color: #c0df34;
   font-weight: bold;
+}
+
+.monthly {
+  background-color: #2ab2af;
+}
+
+.monthly h2, .monthly p {
+  color: white;
+}
+
+.monthly .price-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.5em;
+}
+
+.monthly .price-card p {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.monthly .price-card span {
+  color: #e5eff5;
+  font-weight: 200;
+  font-size: 1em;
+}
+
+.monthly .access-para {
+  margin-top: 0.2em;
+}
+
+.monthly button {
+  width: 100%;
+  padding: 0.8em;
+  border: none;
+  outline: none;
+  background-color: #c0df34;
+  border-radius: 0.3em;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: white;
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  margin-top: 2em;
 }
 
 *, *::after, *::before {
@@ -47,5 +96,10 @@ body {
 
 ul {
   list-style: none;
+}
+
+h2 {
+  font-size: 1.3em;
+  margin-bottom: 1em;
 }
 /*# sourceMappingURL=styles.css.map */

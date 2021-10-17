@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;400;700&display=swap');
 @import 'variables';
 @import 'container';
 
@@ -21,4 +21,9 @@ body {
 
 ul {
     list-style: none;
+}
+
+h2 {
+    font-size: 1.3em;
+    margin-bottom: 1em;
 }
