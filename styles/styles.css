@@ -1,13 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;400;700&display=swap");
 .container {
   width: 85%;
+  max-width: 650px;
   margin: 3em auto;
   -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
           box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .community, .monthly, .why {
   padding: 1.3em;
+  width: 100%;
+}
+
+@media screen and (min-width: 1440px) {
+  .community, .monthly, .why {
+    padding: 3em;
+  }
+  .why, .monthly {
+    width: 50%;
+  }
 }
 
 .community {
@@ -18,7 +34,6 @@
 
 .community h2 {
   color: #2ab2af;
-  opacity: 0.8;
 }
 
 .community p {
@@ -31,6 +46,12 @@
 .community .accent-green {
   color: #c0df34;
   font-weight: bold;
+}
+
+@media screen and (min-width: 1440px) {
+  .community p {
+    font-size: 1em;
+  }
 }
 
 .monthly {
@@ -82,6 +103,12 @@
   margin-top: 2em;
 }
 
+@media screen and (min-width: 1440px) {
+  .monthly {
+    border-bottom-left-radius: 0.3em;
+  }
+}
+
 .why {
   background-color: #2ab2af;
   opacity: 0.8;
@@ -92,6 +119,12 @@
 
 .why ul {
   font-weight: 200;
+}
+
+@media screen and (min-width: 1440px) {
+  .why {
+    border-bottom-left-radius: 0;
+  }
 }
 
 *, *::after, *::before {

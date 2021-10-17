@@ -5,7 +5,6 @@
 
     h2 {
         color: $clr-cyan;
-        opacity: 0.8;
     }
 
     p {
@@ -18,5 +17,13 @@
     .accent-green {
         color: $clr-yellow;
         font-weight: bold;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .community {
+        p { 
+            font-size: 1em;
+        }
     }
 }

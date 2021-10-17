@@ -41,3 +41,9 @@
         margin-top: 2em;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .monthly {
+        border-bottom-left-radius: 0.3em
+    }
+}

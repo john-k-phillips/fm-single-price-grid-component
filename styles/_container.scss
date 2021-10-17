@@ -1,9 +1,24 @@
 .container {
     width: 85%;
+    max-width: 650px;
+
     margin: 3em auto;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .community, .monthly, .why {
     padding: 1.3em;
+    width: 100%;
+}
+
+@media screen and (min-width: 1440px) {
+    .community, .monthly, .why {
+        padding: 3em;
+    }
+    .why, .monthly {
+        width: 50%;
+    }
 }
