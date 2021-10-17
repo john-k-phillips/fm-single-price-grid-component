@@ -1,0 +1,23 @@
+.community {
+    background-color: #fff;
+    border-top-left-radius: 0.3em;
+    border-top-right-radius: 0.3em;
+
+    h2 {
+        color: $clr-cyan;
+        font-size: 1.3em;
+        margin-bottom: 1em;
+    }
+
+    p {
+        margin-top: 1em;
+        color: $clr-dark-gray;
+        line-height: 1.5em;
+        font-size: 0.90em;
+    }
+
+    .accent-green {
+        color: $clr-yellow;
+        font-weight: bold;
+    }
+}

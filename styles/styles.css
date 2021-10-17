@@ -1,4 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+.container {
+  width: 85%;
+  margin: 3em auto;
+}
+
+.community, .monthly, .why {
+  padding: 1.3em;
+}
+
+.community {
+  background-color: #fff;
+  border-top-left-radius: 0.3em;
+  border-top-right-radius: 0.3em;
+}
+
+.community h2 {
+  color: #2ab2af;
+  font-size: 1.3em;
+  margin-bottom: 1em;
+}
+
+.community p {
+  margin-top: 1em;
+  color: #98a6bd;
+  line-height: 1.5em;
+  font-size: 0.90em;
+}
+
+.community .accent-green {
+  color: #c0df34;
+  font-weight: bold;
+}
+
 *, *::after, *::before {
   margin: 0;
   padding: 0;
@@ -9,5 +42,10 @@
 body {
   font-family: 'Karla', sans-serif;
   font-size: 16px;
+  background-color: #e5eff5;
+}
+
+ul {
+  list-style: none;
 }
 /*# sourceMappingURL=styles.css.map */
