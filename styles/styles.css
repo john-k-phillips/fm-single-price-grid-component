@@ -81,6 +81,18 @@
   margin-top: 2em;
 }
 
+.why {
+  background-color: #2ab2af;
+  opacity: 0.8;
+  color: #fff;
+  border-bottom-left-radius: 0.3em;
+  border-bottom-right-radius: 0.3em;
+}
+
+.why ul {
+  font-weight: 200;
+}
+
 *, *::after, *::before {
   margin: 0;
   padding: 0;
